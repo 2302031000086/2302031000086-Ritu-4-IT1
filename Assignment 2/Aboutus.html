@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Elegance - Beauty Section</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: url('./assets/aboutus.jpeg') no-repeat center center/cover;
+      background-attachment: fixed;
+    }
+    header {
+      background: rgba(243, 230, 182, 0.5);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      padding: 0px 10px;
+    }
+
+    .logo img {
+      width: 80px;
+      border-radius: 30%;
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 45px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 50px; /* Adjust the space between items */
+  }
+
+  .nav-links li {
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+    font-weight: bold;
+  }
+
+    .beauty-section {
+      position: relative;
+      color: white;
+      text-align: center;
+      padding: 150px 20px;
+      min-height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .beauty-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: black;
+      max-width: 80%;
+    }
+
+    .beauty-options {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .beauty-options a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: black;
+      padding-bottom: 5px;
+      transition: color 0.3s;
+    }
+
+    .beauty-options a.active,
+    .beauty-options a:hover {
+      color: #009688;
+      border-bottom: 2px solid #009688;
+    }
+
+    .beauty-description {
+      margin-top: 25px;
+      font-size: 1rem;
+      color: black;
+      max-width: 70%;
+      text-align: center;
+    }
+    footer {
+    background: rgba(243, 230, 182, 0.5);
+    padding: 20px;
+    text-align: center;
+    margin-top: 90px;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+  }
+
+  .social,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social i,
+  .contact p {
+    margin: 5px;
+    font-size: 14px;
+  }
+  .icon {
+    display: flex;
+    flex-direction: row;
+  }
+  .icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./assets/logo.jpeg" alt="Eco Elegance">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="review.html">REVIEWS</a></li>
+        <li><a href="Aboutus.html">ABOUT US</a></li>
+        <li><a href="login.html">LOG IN/SIGN UP</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="beauty-section">
+    <div class="beauty-text">
+      <h2>Beauty is not in the face, <br>beauty is a light in the <br>heart.</h2>
+    </div>
+    <div class="beauty-options">
+      <a href="#" class="active">OUR STORY</a>
+      <a href="#">OUR VALUE</a>
+      <a href="#">OUR VISION</a>
+    </div>
+    <p class="beauty-description">
+The history of cosmetics date back thousands of years to ancient civilizations like Egypt,Greece,and Rome. Cosmetics
+were used for religious ceremonies, to endourse appearance, and to signify social status.    </p>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="social" style="margin: 0px 30px;">
+        <p>SOCIAL</p>
+        <div class="icon">
+          <img src="./assets/insta-svgrepo-com.svg" />
+          <img src="./assets/facebook-176-svgrepo-com.svg" />
+        </div>
+  
+      </div>
+      <div class="contact">
+        <p>CONTACT US</p>
+        <p> +91 8629532910</p>
+        <p> sanju1523@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+  /* Membership Banner */
+  .row{
+    display: flex;
+   justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+.membership-banner {
+    background-color: #dff0d8;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.join-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.join-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Account Sections */
+.account-sections {
+    padding: 10px;
+}
+
+
+.section {
+    position: relative;
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-item {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-item span {
+    float: right;
+}
+
+/* Shipping Section */
+.shipping {
+    background-color: #d9b98f;
+}
+
+/* Section Tags */
+.section-tag {
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+</style>
+
+<body>
+
+  <div style="background-color: #d9b98f;">
+    <h1> My Account</h1>
+  </div>
+
+  <div class="membership-banner">
+    <p>Eco Elegance member’s club</p>
+    <button class="join-btn">JOIN NOW</button>
+  </div>
+
+  <div class="account-sections">
+
+      <div class="section">
+        <a href="#" class="section-item">My orders <span>></span></a>
+      </div>
+
+      <div class="section">
+        <a href="#" class="section-item">Returns <span>></span></a>
+      </div>
+
+   
+
+    <div class="section">
+      <a href="#" class="section-item">Coupons</a>
+    </div>
+
+    <div class="section">
+      <a href="#" class="section-item">My reviews <span>></span></a>
+    </div>
+
+    <div class="section">
+      <a href="#" class="section-item">Help center <span>></span></a>
+    </div>
+
+    <div class="section">
+      <a href="#" class="section-item">My profile <span>></span></a>
+    </div>
+
+    <div class="section shipping">
+      <a href="#" class="section-item">Shipping/delivery <span>></span></a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="social" style="margin: 0px 30px;">
+        <p>SOCIAL</p>
+        <div class="icon">
+          <img src="./assets/insta-svgrepo-com.svg" />
+          <img src="./assets/facebook-176-svgrepo-com.svg" />
+        </div>
+  
+      </div>
+      <div class="contact">
+        <p>CONTACT US</p>
+        <p> +91 8629532910</p>
+        <p> sanju1523@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
